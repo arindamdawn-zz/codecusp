@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    title: `Codecusp`,
+    author: `Arindam Dawn`,
+    description: `Tech blog aiming to demystify things.`,
+    siteUrl: `https://codecusp.com/`,
+    // social: {
+    //   twitter: `arindamdawn`,
+    // },
   },
   plugins: [
     {
@@ -34,12 +34,26 @@ module.exports = {
             },
           },
           {
+            resolve: `gatsby-plugin-styled-components`,
+            options: {
+              // Add any options here
+            },
+          },
+          {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false,
+            },
+          },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
