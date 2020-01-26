@@ -13,7 +13,7 @@ const BlogIndex = props => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="Codecusp - Dev Blog by Arindam Dawn" />
       <Bio />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug;
