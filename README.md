@@ -2,7 +2,6 @@
 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://codecusp.com/)
 
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/arindamdawn/)
 
 ## Codecusp - Dev blog created and maintained by [Arindam Dawn](https://github.com/arindamdawn)
 
