@@ -51,8 +51,13 @@ const Bio = () => {
         }}
       />
       <p>
-        Dev blog by <strong>{author}</strong> who loves to code and is learning
-        to learn
+        Dev blog by{" "}
+        <strong>
+          <a href="www.github.com/arindamdawn">{author}</a>
+        </strong>
+        {"."}
+        <br />
+        Learning to learn and unlearn.
         {` `}
       </p>
     </div>

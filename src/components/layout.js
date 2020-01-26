@@ -8,18 +8,20 @@ import Header from "./header";
 import Footer from "./footer";
 
 const lightTheme = {
-  "--color-text": "#994cc3",
+  "--color-text": "#222",
   "--color-bg": "#f0f0f0",
   "--color-primary": "#EF5350",
   "--color-secondary": "#0c969b",
-  "--color-header-bg": "rgba(255, 255, 255, 0.9)"
+  "--color-header-bg": "rgba(255, 255, 255, 0.9)",
+  "--color-text-link": "#5e01a5",
 };
 const darkTheme = {
-  "--color-text": "#82AAFF",
+  "--color-text": "hsla(0,0%,100%,0.88)",
   "--color-bg": "#011627",
   "--color-primary": "#c792ea",
-  "--color-secondary": "#7fdbca",
-  "--color-header-bg": "rgba(1, 10, 18, 0.9)"
+  "--color-secondary": "#ffffff",
+  "--color-header-bg": "rgba(1, 10, 18, 0.9)",
+  "--color-text-link": "#d5a1fd",
 };
 
 export const ModeContext = createContext("light");

@@ -1,22 +1,26 @@
 :root {
     --color-bg: #f0f0f0;
     --color-text: #994cc3;
+    --color-text-link: #994cc3;
     --color-primary: #000;
     --color-secondary: #0c969b;
     --color-header-bg: rgba(255, 255, 255, 0.9);
-  }
-  
-  html {
+}
+
+html {
     box-sizing: border-box;
     color: #222222;
-  }
-  
-  
-  body {
+}
+
+a {
+    color: var(--color-text-link);
+}
+
+
+body {
     background: #f0f0f0;
     background: var(--color-bg);
     color: #994cc3;
     color: var(--color-text);
     transition: background 0.8s, color 0.8s;
-  }
-  
+}
